@@ -21,14 +21,20 @@ namespace StudentRegister
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Student> students;
+        List<Student> students; 
 
         public MainWindow()
         {
             InitializeComponent();
             students = new List<Student>();
             students.Add(new Student("Jack", "Nimble"));
-            students.Add(new Student("Mary", "Contrary"));
+            students.Add(new Student("Mary", "Contrary "));
+            StudentList.ItemsSource = students;
+        }
+
+        private void AddStudent(object sender, RoutedEventArgs args)
+        {
+            
         }
     }
 }

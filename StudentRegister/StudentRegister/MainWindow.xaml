@@ -9,7 +9,23 @@
 
     <DockPanel>
         <ListBox DockPanel.Dock="Right" Name="StudentList"/>
-        <ContentControl Name="SelectedStudent" />
+        <ListBox>ItemTeorijijji 
+        </ListBox>
+        <ContentControl Name="SelectedStudent">
+
+        </ContentControl>
+
+        <Button DockPanel.Dock="Bottom" RenderTransformOrigin="0.5,0.5" Height="353" Margin="-37,0,93,0" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="46.08"/>
+                    <RotateTransform Angle="11.181"/>
+                    <TranslateTransform X="194.065" Y="22.112"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            Add New Student
+        </Button>
     </DockPanel>
-    
+
 </Window>

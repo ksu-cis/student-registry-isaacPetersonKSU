@@ -86,5 +86,6 @@ namespace StudentRegister
             courseHistory = new List<CourseResult>();
         }
 
+        
     }
 }
